@@ -24,7 +24,7 @@
             a:active, a:hover, .nav-item a:hover { text-decoration: underline; }
             .icon-link-hover { --bs-icon-link-transform: translate3d(0, -.3rem, 0); }
             .img-tooth { width: 25%; border-radius: 1rem; border-width: 0.025rem; border-style: solid; border-color: var(--bs-info); }
-            #portrait-img { width: 50%; border-radius: 1rem; border-width: 0.15rem; border-style: solid; border-color: var(--bs-info); }
+            #overview-img { width: 50%; border-radius: 1rem; border-width: 0.15rem; border-style: solid; border-color: var(--bs-info); }
             #logo { height: 7.5rem; }
             summary:hover, #logo:hover { filter: opacity(50%); }
             summary { color: var(--bs-info); }
@@ -55,16 +55,16 @@
         </header>
         <main>
             <div id="pictures">
-                <p class="text-center tooth-parts">
+                <p class="text-center">
                     <a href="static/images/overview.png" id="overview" data-lightbox="teeth" title="Overview">
-                        <img src="static/images/overview.png" class="img-tooth" alt="Overview" id="overview-img">
+                        <img src="static/images/overview.png" class="overview-img" alt="Overview" id="overview-img">
                     </a>
                 </p>
                 <p class="lead text-center p-1">
                     <i>Juno</i> is my neighbors puppy who lost their milk
                     (deciduous, or &quot;<i>baby</i>&quot;) teeth in 2025.
                 </p>
-                <details class="tooth-parts" open>
+                <details open>
                     <summary class="p-1" id="root" title="Root (5)">
                         <span class="h3 text-start">
                             Root (5)
@@ -81,7 +81,7 @@
                         <a href="static/images/root5.png" id="root5" data-lightbox="teeth" target="_blank"><img alt="Root 5" class="img-tooth m-1" src="static/images/root5.png"></a>
                     </p>
                 </details>
-                <details class="tooth-parts" open>
+                <details open>
                     <summary class="p-1" id="tip" title="Tip (3)">
                         <span class="h3 text-start">
                             Tip (3)
