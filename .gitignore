@@ -1,0 +1,7 @@
+.DS_Store
+*~
+.vcs
+.idea
+static/jquery*
+static/bootstrap*
+static/lightbox*
