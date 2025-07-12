@@ -1,6 +1,8 @@
 # _Juno_ (the Puppy's) Milk Teeth
 
-_Juno_ is my neighbors puppy who lost their milk (deciduous/baby) teeth in 2025.
+_Juno_ is a "super mutt" from _Charlotte, North Carolina_, and her birthday is _February 17_.
+She is an energetic little puppy who loves people, dogs, and belly rubs.
+She lost her lost their milk (deciduous, or "baby") teeth in 2025.
 
 This source code makes up a website hosted at https://www.seas.upenn.edu/~ericoc/juno-milk-teeth/
 
